@@ -1,0 +1,117 @@
+body{
+    background-color: #bbbebc;
+    overflow-x: hidden;
+}
+.container-fluid{
+    background-color: #FF5C8D;
+    height: 450px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    padding: 0 0px;
+}
+.exp{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 200px;
+}
+.btn{
+    margin-top: 2px;
+    margin-left: 43%;
+}
+img{
+    width: 15%;
+    height: auto;
+    margin-right: 80%;
+    border: solid 0px black;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.bottom{
+    width: 12%;
+    margin-left: 85%;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+.bottom:hover{
+    border-radius: 10px;
+    background-color: #FF5C8D;
+}
+.feature-container{
+    margin-top: -5%;
+    margin-left: 12%;
+}
+.feature{
+   width: 24%;
+   margin-left: 3%;
+   background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+
+}
+.feature:hover{
+    background-color: #F1E1A6;
+    color: #ff0953;
+    border: solid 2px black;
+    transform: scale(1.1);
+}
+.ft-head{
+    margin-top: 30px;
+}
+.content{
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    background-color: #bbbebc;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 1%;
+}
+.footer-text{
+    font-size: 15px;
+}
+@media (max-width: 1180px){
+    .container-fluid{
+        background-color: #FF5C8D;
+        height: 450px;
+        margin-right: 0;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: black;
+        margin-top: 50px;
+    }
+    .exp{
+        font-size: 16px;
+        text-align: center;
+        margin-top: 30px;
+        padding: 0;
+    }
+    .btn{
+        margin-top: 20px;
+        margin-left: 28%;
+    }
+    .feature-container{
+        margin-top: -19%;
+        margin-left: 0%;
+    }
+    .feature{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+     }
+     .footer{
+        text-align: center;
+        background-color: #bbbebc;
+        height: 50px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
